@@ -19,7 +19,7 @@ import pytest
 
 
 @pytest.mark.Learning
-def test_firstProgram():
+def test_firstProgram(setup):
     print("Hello, World!")
     assert True
 #as the assert in this is false therefore the test will fail
