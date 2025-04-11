@@ -13,6 +13,8 @@
 
 #python -m pytest -m Learning -v  will run all the test cases in the folder with the name group Learnig
 
+#python -m pytest --html=report.html will generate the report in the html format, the report will be saved in the current directory with the name report.html which we can run on browser by coping its patha and paste it in brower to see the report
+
 #can skip the test case using @pytest.mark.skip
 #with @pytest.mark.xfail can mark the test case as skip but it will run and will not fail the test case
 import pytest
